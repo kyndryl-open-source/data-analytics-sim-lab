@@ -15,6 +15,8 @@
 
 * Basic notions on `Python` programming language
 
+* Understanding of histograms and percentiles
+
 ### Contents
 
 * Histogram
@@ -68,9 +70,10 @@ cd python
 python latency.py latency.csv
 ```
 
-### Explanations
+Now you can try changing the variable `P` to see other calculated percentile values:
 
-Please check the book chapter VII for explanations of the concepts applied in this lab.
+```python
+P = 50
+```
 
-## End of document
->>>>>>> c1bc768 (Initial commit)
+## End of Document
