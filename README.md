@@ -1,6 +1,6 @@
 # SRE@Kyndryl
 
-## SRE Public Labs - GitOps Sim
+## SRE Public Labs - Data Analytics Sim
 
 * Version: `0.1.0`
 * License: `MIT`
@@ -30,10 +30,13 @@ Folder: `python`
 
 * Latency Analysis
 
+Folder: `python`
+
 | **File / folder** | **Description** |
 |:--------------------------------|:--------------------------------|
 | latency.py | `Python code that reads a data set from a CSV file and computes its percentile and histogram` |
 | latency.csv | `Data set of latency metric in CSV format` |
+| requirements.txt | `Python dependecies for the app` |
 | | |
 
 ### Installation
@@ -48,11 +51,15 @@ Folder: `python`
 
 1. Install `NumPy` package with the following command:
 
-  * `pip install numpy`
+* `pip install numpy`
 
-2. Install `matplotlbi` library with this command:
+2. Install `matplotlib` library with this command:
 
-  * `pip install matplolib`
+* `pip install matplolib`
+
+Alternatively, you can just run the following command:
+
+`pip install -r requirements.txt`
 
 ### Usage
 
