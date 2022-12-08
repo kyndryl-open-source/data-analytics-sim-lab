@@ -76,13 +76,8 @@ python histogram.py
 cd python
 python latency.py latency.csv
 ```
+
 Now change the `P` variable to see how the calculated percentile changes:
-
-```python
-P = 50
-```
-
-Now you can try changing the variable `P` to see other calculated percentile values:
 
 ```python
 P = 50
