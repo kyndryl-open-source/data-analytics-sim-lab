@@ -1,6 +1,6 @@
 # SRE@Kyndryl
 
-## SRE Public Labs - Data Analytics Sim
+## SRE Public Labs - Data Analytics Sim Lab
 
 * Version: `0.1.0`
 * License: `MIT`
@@ -25,7 +25,7 @@ Folder: `python`
 
 | **File / folder** | **Description** |
 |:--------------------------------|:--------------------------------|
-| histogram.py | `Python code that generates random data set and applies statistical methods` |
+| histogram.py | `Python code that generates a random data set and applies statistical methods` |
 | | |
 
 * Latency Analysis
@@ -75,6 +75,11 @@ python histogram.py
 ```shell
 cd python
 python latency.py latency.csv
+```
+Now change the `P` variable to see how the calculated percentile changes:
+
+```python
+P = 50
 ```
 
 Now you can try changing the variable `P` to see other calculated percentile values:
