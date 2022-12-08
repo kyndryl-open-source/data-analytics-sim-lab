@@ -1,6 +1,6 @@
 # SRE@Kyndryl
 
-## SRE Public Labs - GitOps Sim
+## SRE Public Labs - Data Analytics Sim Lab
 
 * Version: `0.1.0`
 * License: `MIT`
@@ -15,6 +15,8 @@
 
 * Basic notions on `Python` programming language
 
+* Understanding of histograms and percentiles
+
 ### Contents
 
 * Histogram
@@ -23,15 +25,18 @@ Folder: `python`
 
 | **File / folder** | **Description** |
 |:--------------------------------|:--------------------------------|
-| histogram.py | `Python code that generates random data set and applies statistical methods` |
+| histogram.py | `Python code that generates a random data set and applies statistical methods` |
 | | |
 
 * Latency Analysis
+
+Folder: `python`
 
 | **File / folder** | **Description** |
 |:--------------------------------|:--------------------------------|
 | latency.py | `Python code that reads a data set from a CSV file and computes its percentile and histogram` |
 | latency.csv | `Data set of latency metric in CSV format` |
+| requirements.txt | `Python dependecies for the app` |
 | | |
 
 ### Installation
@@ -46,11 +51,15 @@ Folder: `python`
 
 1. Install `NumPy` package with the following command:
 
-  * `pip install numpy`
+* `pip install numpy`
 
-2. Install `matplotlbi` library with this command:
+2. Install `matplotlib` library with this command:
 
-  * `pip install matplolib`
+* `pip install matplolib`
+
+Alternatively, you can just run the following command:
+
+`pip install -r requirements.txt`
 
 ### Usage
 
@@ -68,9 +77,10 @@ cd python
 python latency.py latency.csv
 ```
 
-### Explanations
+Now change the `P` variable to see how the calculated percentile changes:
 
-Please check the book chapter VII for explanations of the concepts applied in this lab.
+```python
+P = 50
+```
 
-## End of document
->>>>>>> c1bc768 (Initial commit)
+## End of Document
